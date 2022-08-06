@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="Custom Fields" lan="Custom Fields" version="1.0" date="2017-10-09" compatibility="2.0" installRequired="true" >
+	<author name="e107" url="e107.org" />
+	<summary lan="">Configuration plugin for custom fields</summary>
+	<description lan="">Plugin for easier work with custom fields</description>
+	<keywords>
+		<word>information</word>
+		<word>custom</word>
+		<word>fields</word>
+	</keywords>
+	<category>tools</category>
+	<copyright>e107.org</copyright>
+	<adminLinks>
+		<link url="admin_config.php" description="" icon="" iconSmall="" icon128="" primary="true" >LAN_CONFIGURE</link>
+	</adminLinks>
+	
+</e107Plugin>
