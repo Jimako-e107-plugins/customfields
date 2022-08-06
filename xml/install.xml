@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.3.3 (git)" timestamp="1659811689" >
+	<database>
+	<dbTable name="customfields">
+		<item>
+			<field name="id">1</field>
+			<field name="plugin_name">cookbook</field>
+			<field name="plugin_table">cookbook_recipes</field>
+			<field name="plugin_event">cookbook-cookbook_recipes</field>
+			<field name="config_fields">{
+    "__tabs__": {
+        "additional": "Additional"
+    },
+    "active-time": {
+        "title": "Active Time",
+        "type": "text",
+        "writeParms": "",
+        "help": ""
+    },
+    "author": {
+        "title": "Author",
+        "type": "text",
+        "writeParms": "",
+        "help": ""
+    }
+}</field>
+		</item>
+		<item>
+			<field name="id">2</field>
+			<field name="plugin_name">featurebox</field>
+			<field name="plugin_table">featurebox</field>
+			<field name="plugin_event">featurebox</field>
+			<field name="config_fields">{
+    "__tabs__": {
+        "additional": "Additional"
+    },
+    "featurebox": {
+        "title": "featurebox",
+        "type": "text",
+        "writeParms": "",
+        "help": ""
+    },
+    "featurebox2": {
+        "title": "featurebox2",
+        "type": "url",
+        "writeParms": "",
+        "help": ""
+    }
+}</field>
+		</item>
+		<item>
+			<field name="id">3</field>
+			<field name="plugin_name">news</field>
+			<field name="plugin_table">news</field>
+			<field name="plugin_event">news</field>
+			<field name="config_fields">{
+    "__tabs__": {
+        "additional": "Additional"
+    },
+    "news-url": {
+        "title": "NEWS URL",
+        "type": "url",
+        "writeParms": "",
+        "help": ""
+    }
+}</field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>
